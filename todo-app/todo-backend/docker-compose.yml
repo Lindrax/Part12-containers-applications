@@ -1,0 +1,6 @@
+services:
+  app:
+    image: express-server
+    build: .
+    ports:                # Declares the ports to publish
+      - 3000:3000
