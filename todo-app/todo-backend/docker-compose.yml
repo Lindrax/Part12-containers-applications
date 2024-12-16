@@ -1,6 +1,6 @@
 services:
-  app:
-    image: express-server
-    build: .
-    ports:                # Declares the ports to publish
+  app:                  
+    image: todo-backend 
+    build: .              
+    ports:                
       - 3000:3000
